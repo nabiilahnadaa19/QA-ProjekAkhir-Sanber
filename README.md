@@ -1,7 +1,7 @@
 # 🧪 Final Project Quality Assurance Engineer Sanbercode
 
 ## 👤 Pengenalan Diri
-Halo, saya **[Nama Kamu]**, peserta program **Quality Assurance Engineer Sanbercode**.  
+Halo, saya **Nabiilah Nada Iswari**, peserta program **Quality Assurance Engineer Sanbercode**.  
 Proyek ini merupakan tugas akhir berupa **automation testing menggunakan Cypress** untuk menguji fitur pada website **[OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)**.  
 
 ---
