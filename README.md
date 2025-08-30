@@ -1,27 +1,35 @@
-Final Project Quality Assurance Engineer Sanbercode
-👤 Pengenalan Diri
+# 🧪 Final Project Quality Assurance Engineer Sanbercode
 
-Halo, saya Nabiilah Nada Iswari, peserta program Quality Assurance Engineer Sanbercode.
-Proyek ini merupakan tugas akhir berupa automation testing menggunakan Cypress untuk menguji fitur pada website OrangeHRM Demo.
+## 👤 Pengenalan Diri
+Halo, saya **[Nama Kamu]**, peserta program **Quality Assurance Engineer Sanbercode**.  
+Proyek ini merupakan tugas akhir berupa **automation testing menggunakan Cypress** untuk menguji fitur pada website **[OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)**.  
 
-📌 Judul Proyek Akhir
+---
 
-Final Project Quality Assurance Engineer Sanbercode
+## 📌 Judul Proyek
+**Final Project Quality Assurance Engineer Sanbercode**  
 Automation Testing dengan Cypress (UI & API Testing).
 
-⚙️ Fitur-Fitur yang Dikerjakan
+---
 
-Login Page
+## ⚙️ Fitur yang Dikerjakan
 
-Forgot Password
+### 🔑 Login Page
 
-Directory Page
+### 🔐 Forgot Password Flow
 
-🛠️ Teknologi yang Digunakan
+### 📂 Directory Page
 
-Cypress
+---
 
-📂 Struktur Folder Project
+## 🛠️ Teknologi yang Digunakan
+- [Cypress](https://www.cypress.io/) 
+
+---
+
+## 📂 Struktur Folder Project
+
+```
 cypress/
 │
 ├── e2e/
@@ -39,25 +47,36 @@ cypress/
 │
 └── fixtures/
     └── example.json
+```
 
-🚀 Cara Menjalankan Project
+---
 
-Clone Repository
+## 🚀 Cara Menjalankan Project
 
-git clone https://github.com/username/final-project-qa-sanbercode.git
-cd final-project-qa-sanbercode
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/final-project-qa-sanbercode.git
+   cd final-project-qa-sanbercode
+   ```
 
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-Install Dependencies
+3. **Menjalankan Cypress GUI**
+   ```bash
+   npx cypress open
+   ```
 
-npm install
+4. **Menjalankan Cypress di Headless Mode**
+   ```bash
+   npx cypress run
+   ```
 
+5. **Menjalankan Test Tertentu**
+   ```bash
+   npx cypress run --spec "cypress/e2e/login.cy.js"
+   ```
 
-Menjalankan Cypress GUI
-
-npx cypress open
-
-
-Menjalankan Cypress di Headless Mode
-
-npx cypress run
+---
